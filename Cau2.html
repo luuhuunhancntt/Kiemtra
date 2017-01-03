@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("h1, p").toggleClass("red");
+    });
+});
+</script>
+<style>
+.red {
+    color: red;
+}
+</style>
+</head>
+<body>
+<button>
+<h1>Add Solution</h1>
+</button>
+<p>First paragraph.</p>
+<p>Second paragraph.</p>
+</body>
+</html>
